@@ -1,0 +1,14 @@
+@media (prefers-reduced-motion: no-preference) {
+  .pic {
+    animation: moveRound infinite 10 s linear;
+  }
+}
+
+@keyframes moveRound {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
