@@ -2,11 +2,10 @@ import "../styles/Round.css";
 import React from 'react';
 import seal from "../images/seal.jpg";
 
-const Round = (props) => {
+const Round = () => {
     return (
         <div className="round-pic-div">
-            <h5>{props.name}</h5>
-            <img className="round-pic" src={seal} alt="A seal"></img>
+            <img className="round-pic" src={seal} alt="A seal"></img><span><h3 className="top-heading">Jump in, no matter the season!</h3></span>
         </div>)
 }
 
