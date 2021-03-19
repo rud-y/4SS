@@ -8,8 +8,6 @@ import '../styles/HomePage.css';
 class HomePage extends Component {
     constructor(props) {
         super(props);
-
-
     }
 
     render() {
@@ -18,7 +16,9 @@ class HomePage extends Component {
                 <NavBar />
                 <Round />
                 <SeasonPics />
+
             </div>
+
         )
     }
 }

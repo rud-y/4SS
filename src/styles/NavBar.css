@@ -1,9 +1,9 @@
-.navbar {
-  background-color: rgb(6, 6, 136);
-  opacity: 0.2;
-}
-
-.navbar-brand {
+/* .navbar-brand {
   font-weight: bold;
-  font-size: 8rem;
+  font-size: 2rem;
+} */
+
+.nav-link,
+.navbar-brand {
+  color: whitesmoke;
 }

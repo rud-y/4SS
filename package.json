@@ -1,5 +1,6 @@
 {
   "name": "four_seasons",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

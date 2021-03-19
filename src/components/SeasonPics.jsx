@@ -8,12 +8,12 @@ import winter from '../images/winter.jpg';
 const SeasonPics = () => {
 
     return (
-        <div className="mx-auto four-container">
+        <div className="wrapper">
 
-            <img className="p-1 items img-fluid" src={spring} width="150" alt="Spring" />
-            <img className="p-1 items img-fluid" src={summer} width="150" alt="Summer" />
-            <img className="p-1 items img-fluid" src={autumn} width="150" alt="Autumn" />
-            <img className="p-1 items img-fluid " src={winter} width="150" alt="Winter" />
+            <img className="itemSp" src={spring} alt="Spring" />
+            <img className="itemSu" src={summer} alt="Summer" />
+            <img className="itemAu" src={autumn} alt="Autumn" />
+            <img className="itemWi" src={winter} alt="Winter" />
 
         </div>
 
