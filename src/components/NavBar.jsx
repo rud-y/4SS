@@ -5,22 +5,18 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg ">
-      <div className="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
         <Link className="navbar-brand" to="/">4 SEASON DIP</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/places">Places</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/gallery">Gallery</Link>
-            </li>
-          </ul>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavBar">
+          <div class="navbar-nav">
+            <Link class="nav-link active" aria-current="page" to="/places">Places</Link>
+            <Link class="nav-link" to="/gallery">Gallery</Link>
+          </div>
         </div>
       </div>
     </nav>

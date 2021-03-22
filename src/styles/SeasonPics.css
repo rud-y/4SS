@@ -1,8 +1,7 @@
 .wrapper {
   position: relative;
-  width: fit-content;
   margin: 0 auto;
-  border: solid 2px white;
+  max-width: 330px;
 }
 
 .itemSp {
@@ -10,23 +9,50 @@
   top: 15px;
   left: 0;
   width: 180px;
-  border-left: solid white 4px;
 }
 .itemSu {
   position: absolute;
   top: 0px;
   right: 15px;
   width: 140px;
+  border-left: solid rgb(12, 109, 99) 4px;
 }
 .itemAu {
   position: absolute;
   top: 130px;
   left: 30px;
-  width: 125px;
+  width: 145px;
+  border-top: solid rgb(12, 109, 99) 4px;
 }
 .itemWi {
   position: absolute;
-  top: 109px;
-  right: -10px;
+  top: 102px;
+  right: 0px;
   width: 160px;
+  border-top: solid rgb(12, 109, 99) 4px;
+  border-left: 20% solid black 4px;
 }
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 400px;
+    max-height: 600px;
+  }
+  .itemSp {
+    width: 230px;
+    left: -10px;
+  }
+
+  .itemSu {
+    width: 190px;
+  }
+  .itemAu {
+    width: 195px;
+    top: 170px;
+    left: 10px;
+  }
+  .itemWi {
+    width: 210px;
+    top: 140px;
+  }
+} ;

@@ -1,12 +1,13 @@
 .round-pic {
   width: 118px;
   padding: 10px;
-  animation: moveRound infinite 10s alternate;
+  animation: moveRound infinite 7s ease-in;
   border-radius: 68px;
 }
 
 .round-pic-div {
-  height: 90px;
+  /* height: 90px; */
+  width: fit-content;
   margin: 0 auto;
   margin-bottom: 60px;
 }
@@ -28,3 +29,9 @@ h5 {
   font-size: 25px;
   color: whitesmoke;
 }
+
+/* @media screen and(min-width: 992px) {
+  .round-pic {
+    width: 290px;
+  }
+} */
