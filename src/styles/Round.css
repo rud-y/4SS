@@ -1,14 +1,14 @@
 .round-pic {
   width: 118px;
   padding: 10px;
-  animation: moveRound infinite 7s ease-in;
+  /* animation: moveRound infinite 7s ease-in; */
   border-radius: 68px;
 }
 
 .round-pic-div {
   /* height: 90px; */
   width: fit-content;
-  margin: 0 auto;
+  float: left;
   margin-bottom: 60px;
 }
 

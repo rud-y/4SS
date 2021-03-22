@@ -19,7 +19,7 @@
 }
 .itemAu {
   position: absolute;
-  top: 130px;
+  top: 110px;
   left: 30px;
   width: 145px;
   border-top: solid rgb(12, 109, 99) 4px;
@@ -48,7 +48,7 @@
   }
   .itemAu {
     width: 195px;
-    top: 170px;
+    top: 160px;
     left: 10px;
   }
   .itemWi {
